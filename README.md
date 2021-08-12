@@ -4,11 +4,10 @@
 ![](PCB/TANDY_600_96K_SRAM_back.jpg)  
 ![](PCB/TANDY_600_96K_SRAM.svg)  
 
-[DigiKey BOM](TANDY_600_RAM.BOM.csv)
+[PCB from OSHPark](https://oshpark.com/shared_projects/ndtHAnaR)  
+[PCB from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_RAM.html)  
 
-PCB: 
-
-BOM: http://www.digikey.com/short/3r12m5
+[BOM from DigiKey](https://www.digikey.com/short/79v24j5j)
 
 http://tandy.wiki/JLS-96K
 
