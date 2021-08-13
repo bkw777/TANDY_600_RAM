@@ -1,5 +1,22 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 628128_DIP32_SSOP32
+D 128K x 8 High-Speed CMOS Static RAM, 55/70ns, DIP-32/SSOP-32
+K RAM SRAM CMOS MEMORY
+F http://www.futurlec.com/Datasheet/Memory/628128.pdf
+$ENDCMP
+#
+$CMP 74HC148
+D Priority Encoder 3 to 8 cascadable
+K TTL ENCOD
+$ENDCMP
+#
+$CMP Conn_02x22_Odd_Even
+D Generic connector, double row, 02x22, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP GND
 D Power symbol creates a global label with name "GND" , ground
 K power-flag

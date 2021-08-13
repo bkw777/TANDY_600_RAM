@@ -4,8 +4,10 @@
 ![](PCB/TANDY_600_96K_SRAM_back.jpg)  
 ![](PCB/TANDY_600_96K_SRAM.svg)  
 
-[PCB from OSHPark](https://oshpark.com/shared_projects/ndtHAnaR)  
-[PCB from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_RAM.html)  
+No buy links for v004 pcbs yet until the design is tested.  
+This version re-orders all the address and data lines around to match up the signal names from the bus to the chip. But since I don't know why Jayeson dis-ordered them in the first place, this version is completely unknown and experimantal until tested.  
+[PCB from OSHPark]()  
+[PCB from PCBWAY]()  
 
 [BOM from DigiKey](https://www.digikey.com/short/79v24j5j)
 
@@ -21,9 +23,11 @@ Originally based on Model600Sram_v1.1 by Jayeson Lee-Steere (See git branch "JLS
 
 # History / Credits
 
-* 20210812 Removed the 74HC08
+* 20210812 v004 - Un-scrambled the address & data lines so for example D4 on the bus goes to D4 on the chip. Redrew the schematic. Redrew the pcb.
 
-* 20210811 Made the original KiCad files more portable and self-contained. Added 3d models. Added project local symbol and footprint libraries and moved all symbols & footprints and to it. Massaged the PCB layout and silkscreen. The circuit is still the original circuit electrically.
+* 20210812 v003 - Removed the 74HC08
 
-* 20170104 - I asked on the Tandy Color Computer Facebook group if anyone could clone the 96K ram board for Model 600, and Jayeson Lee-Steere did so. I sent him an original module to examine, and he produced Model600Sram_v1.1 and placed it in the public domain.  
+* 20210811 v002 - Made the original KiCad files more portable and self-contained. Added 3d models. Added project local symbol and footprint libraries and moved all symbols & footprints and to it. Massaged the PCB layout and silkscreen. The circuit is still the original circuit electrically.
+
+* 20170104 v001 / Model600Sram_v1.1 - I asked on the Tandy Color Computer Facebook group if anyone could clone a 96K ram board for Model 600, and Jayeson Lee-Steere produced Model600Sram_v1.1 and placed it in the public domain.  
 https://www.facebook.com/groups/2359462640/permalink/10154864662292641/
