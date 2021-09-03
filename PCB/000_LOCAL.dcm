@@ -11,7 +11,7 @@ D Priority Encoder 3 to 8 cascadable
 K TTL ENCOD
 $ENDCMP
 #
-$CMP Conn_02x22_Odd_Even
+$CMP DIN41612-44
 D Generic connector, double row, 02x22, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F ~
