@@ -4,10 +4,9 @@
 ![](PCB/TANDY_600_96K_SRAM_back.jpg)  
 ![](PCB/TANDY_600_96K_SRAM.svg)  
 
-No buy links for v004 pcbs yet until the design is tested.  
 This version re-orders all the address and data lines around to match up the signal names from the bus to the chip. But since I don't know why Jayeson dis-ordered them in the first place, this version is completely unknown and experimantal until tested.  
-[PCB from OSHPark]()  
-[PCB from PCBWAY]()  
+[PCB from OSHPark](https://oshpark.com/shared_projects/zVPzFMnh)  
+[PCB from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_RAM.html)  
 
 [BOM from DigiKey](https://www.digikey.com/short/79v24j5j)
 
@@ -23,7 +22,7 @@ Originally based on Model600Sram_v1.1 by Jayeson Lee-Steere (See git branch "JLS
 
 # History / Credits
 
-* 20210812 v004 - Un-scrambled the address & data lines so for example D4 on the bus goes to D4 on the chip. Redrew the schematic. Redrew the pcb.
+* 20210812 v004 - Un-scramble the address & data lines so for example D4 on the bus goes to D4 on the chip. Redraw the schematic. Redraw the pcb. Add scans of a few relevant pages from the service manual.
 
 * 20210812 v003 - Removed the 74HC08
 
