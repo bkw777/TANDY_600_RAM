@@ -5,8 +5,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "TANDY Model 600 96K SRAM Module"
-Date "2021-09-02"
-Rev "004"
+Date "2021-09-11"
+Rev "005"
 Comp "Brian K. White - b.kenyon.w@gmail.com"
 Comment1 "Originally based on Model600Sram_v1.1 by Jayeson Lee-Steer"
 Comment2 ""
@@ -140,9 +140,9 @@ A15
 Text Label 6000 2700 0    60   ~ 0
 A16
 Text Label 5000 3200 2    60   ~ 0
-~CS_B1
+~CS1_B
 Text Label 5000 2500 2    60   ~ 0
-~CS_B2
+~CS1_C
 Wire Wire Line
 	8200 1900 8400 1900
 Wire Wire Line
@@ -421,7 +421,7 @@ Text Label 3700 3500 0    60   ~ 0
 Text Label 3700 3600 0    60   ~ 0
 ~WE
 Text Label 3700 3700 0    60   ~ 0
-~CS_B1
+~CS1_B
 Text Label 3700 3800 0    60   ~ 0
 CS2
 $Comp
@@ -515,7 +515,7 @@ F 3 "" H 3200 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 3200 3700 2    60   ~ 0
-~CS_B2
+~CS1_C
 NoConn ~ 3200 3800
 $Comp
 L 000_LOCAL:GND #PWR0120
@@ -653,7 +653,7 @@ U 1 1 613445A6
 P 5500 2900
 F 0 "U2" H 5680 3600 50  0000 C CNN
 F 1 "74HC148" H 5730 3510 50  0000 C CNN
-F 2 "000_LOCAL:SOIC-16_4x10" H 5500 2900 50  0001 C CNN
+F 2 "000_LOCAL:SOIC-SOP-16" H 5500 2900 50  0001 C CNN
 F 3 "" H 5500 2900 50  0001 C CNN
 	1    5500 2900
 	1    0    0    -1  
@@ -766,9 +766,9 @@ Text Label 8200 3000 0    50   ~ 0
 Text Label 8200 3100 0    50   ~ 0
 ~WE
 Text Label 5000 2700 2    60   ~ 0
-~CS_B0
+~CS1_A
 Text Label 3700 2000 0    60   ~ 0
-~CS_B0
+~CS1_A
 Text Notes 4020 3840 0    50   ~ 0
 ~RAM_BACKUP
 Wire Bus Line
