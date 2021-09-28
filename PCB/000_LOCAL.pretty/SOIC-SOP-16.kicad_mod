@@ -1,8 +1,8 @@
-(module SOIC-SOP-16 (layer F.Cu) (tedit 613C67E3)
+(module SOIC-SOP-16 (layer F.Cu) (tedit 61529F59)
   (descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
   (tags "SOIC SO")
   (attr smd)
-  (fp_text reference REF** (at 0 -5.915) (layer F.SilkS)
+  (fp_text reference REF** (at 0.4445 -4.191) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value SOIC-SOP-16 (at 0 5.915) (layer F.Fab)
@@ -43,12 +43,12 @@
   (pad 16 smd roundrect (at 3.1735 -4.445) (size 2.2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 12 smd roundrect (at 3.1735 0.635) (size 2.2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 5 smd roundrect (at -3.1735 0.635) (size 2.2 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KIPRJMOD}/000_LOCAL.pretty/3d/SOIC-16_4x10.step.hide
+  (model ${KIPRJMOD}/000_LOCAL.pretty/3d/SOIC-16_4x10.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model ${KIPRJMOD}/000_LOCAL.pretty/3d/NS0016A.stp
+  (model ${KIPRJMOD}/000_LOCAL.pretty/3d/NS0016A.stp.hide
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

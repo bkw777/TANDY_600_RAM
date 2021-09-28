@@ -5,11 +5,11 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "TANDY Model 600 96K SRAM Module"
-Date "2021-09-11"
-Rev "005"
+Date "2021-09-28"
+Rev "006"
 Comp "Brian K. White - b.kenyon.w@gmail.com"
-Comment1 "Originally based on Model600Sram_v1.1 by Jayeson Lee-Steer"
-Comment2 ""
+Comment1 "LICENSE: CC-BY-SA 4.0"
+Comment2 "Originally based on Model600Sram_v1.1 by Jayeson Lee-Steer"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -135,13 +135,13 @@ Text Label 7200 3400 2    60   ~ 0
 A15
 Text Label 7200 3500 2    60   ~ 0
 A16
-Text Label 6000 2600 0    60   ~ 0
+Text Label 6000 2500 0    60   ~ 0
 A15
-Text Label 6000 2700 0    60   ~ 0
+Text Label 6000 2600 0    60   ~ 0
 A16
-Text Label 5000 3200 2    60   ~ 0
+Text Label 5000 2600 2    60   ~ 0
 ~CS1_B
-Text Label 5000 2500 2    60   ~ 0
+Text Label 5000 2700 2    60   ~ 0
 ~CS1_C
 Wire Wire Line
 	8200 1900 8400 1900
@@ -242,12 +242,12 @@ $EndComp
 $Comp
 L 000_LOCAL:VCC #PWR0113
 U 1 1 611B1010
-P 5000 2600
-F 0 "#PWR0113" H 5000 2450 50  0001 C CNN
-F 1 "VCC" V 5000 2790 50  0000 C CNN
-F 2 "" H 5000 2600 50  0001 C CNN
-F 3 "" H 5000 2600 50  0001 C CNN
-	1    5000 2600
+P 5000 3200
+F 0 "#PWR0113" H 5000 3050 50  0001 C CNN
+F 1 "VCC" V 5000 3390 50  0000 C CNN
+F 2 "" H 5000 3200 50  0001 C CNN
+F 3 "" H 5000 3200 50  0001 C CNN
+	1    5000 3200
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -659,11 +659,10 @@ F 3 "" H 5500 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6000 3100
-NoConn ~ 6000 2500
 Wire Wire Line
-	5000 3200 4700 3200
+	5000 2600 4700 2600
 Entry Wire Line
-	4600 3100 4700 3200
+	4600 2500 4700 2600
 Wire Wire Line
 	5000 2700 4700 2700
 Entry Wire Line
@@ -672,16 +671,14 @@ Wire Wire Line
 	5000 2500 4700 2500
 Entry Wire Line
 	4600 2400 4700 2500
-Wire Bus Line
-	4100 1500 4600 1500
+Entry Wire Line
+	6300 2500 6400 2400
+Wire Wire Line
+	6300 2500 6000 2500
 Entry Wire Line
 	6300 2600 6400 2500
 Wire Wire Line
 	6300 2600 6000 2600
-Entry Wire Line
-	6300 2700 6400 2600
-Wire Wire Line
-	6300 2700 6000 2700
 $Comp
 L 000_LOCAL:VCC #PWR0125
 U 1 1 613AE07E
@@ -750,10 +747,7 @@ Wire Wire Line
 	8200 3000 8400 3000
 Wire Wire Line
 	8400 3100 8200 3100
-Connection ~ 4600 1500
 Connection ~ 6400 1500
-Wire Bus Line
-	4600 1500 6400 1500
 Wire Bus Line
 	6400 1500 6900 1500
 Connection ~ 6900 1500
@@ -765,14 +759,20 @@ Text Label 8200 3000 0    50   ~ 0
 ~OE
 Text Label 8200 3100 0    50   ~ 0
 ~WE
-Text Label 5000 2700 2    60   ~ 0
+Text Label 5000 2500 2    60   ~ 0
 ~CS1_A
 Text Label 3700 2000 0    60   ~ 0
 ~CS1_A
 Text Notes 4020 3840 0    50   ~ 0
 ~RAM_BACKUP
 Wire Bus Line
-	4600 1500 4600 3100
+	4100 1500 4600 1500
+Connection ~ 4600 1500
+Wire Bus Line
+	4600 1500 6400 1500
+NoConn ~ 6000 2700
+Wire Bus Line
+	4600 1500 4600 2600
 Wire Bus Line
 	6400 1500 6400 2900
 Wire Bus Line
