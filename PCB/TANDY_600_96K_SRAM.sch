@@ -5,7 +5,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "TANDY Model 600 96K SRAM Module"
-Date "2021-09-28"
+Date "2021-10-14"
 Rev "006"
 Comp "Brian K. White - b.kenyon.w@gmail.com"
 Comment1 "LICENSE: CC-BY-SA 4.0"
@@ -35,56 +35,6 @@ F 3 "" H 2700 6050 50  0000 C CNN
 	1    2700 6050
 	1    0    0    -1  
 $EndComp
-Entry Wire Line
-	8400 1900 8500 1800
-Entry Wire Line
-	8400 2000 8500 1900
-Entry Wire Line
-	8400 2100 8500 2000
-Entry Wire Line
-	8400 2200 8500 2100
-Entry Wire Line
-	8400 2300 8500 2200
-Entry Wire Line
-	8400 2400 8500 2300
-Entry Wire Line
-	8400 2500 8500 2400
-Entry Wire Line
-	8400 2600 8500 2500
-Entry Wire Line
-	7000 2100 6900 2000
-Entry Wire Line
-	7000 1900 6900 1800
-Entry Wire Line
-	7000 2000 6900 1900
-Entry Wire Line
-	7000 2200 6900 2100
-Entry Wire Line
-	7000 2500 6900 2400
-Entry Wire Line
-	7000 2300 6900 2200
-Entry Wire Line
-	7000 2400 6900 2300
-Entry Wire Line
-	7000 2600 6900 2500
-Entry Wire Line
-	7000 2900 6900 2800
-Entry Wire Line
-	7000 2700 6900 2600
-Entry Wire Line
-	7000 2800 6900 2700
-Entry Wire Line
-	7000 3000 6900 2900
-Entry Wire Line
-	7000 3300 6900 3200
-Entry Wire Line
-	7000 3100 6900 3000
-Entry Wire Line
-	7000 3200 6900 3100
-Entry Wire Line
-	7000 3400 6900 3300
-Entry Wire Line
-	7000 3500 6900 3400
 Text Label 8200 1900 0    60   ~ 0
 D0
 Text Label 8200 2100 0    60   ~ 0
@@ -143,56 +93,6 @@ Text Label 5000 2600 2    60   ~ 0
 ~CS1_B
 Text Label 5000 2700 2    60   ~ 0
 ~CS1_C
-Wire Wire Line
-	8200 1900 8400 1900
-Wire Wire Line
-	8400 2000 8200 2000
-Wire Wire Line
-	8200 2100 8400 2100
-Wire Wire Line
-	8400 2200 8200 2200
-Wire Wire Line
-	8200 2300 8400 2300
-Wire Wire Line
-	8400 2400 8200 2400
-Wire Wire Line
-	8200 2500 8400 2500
-Wire Wire Line
-	8400 2600 8200 2600
-Wire Wire Line
-	7000 1900 7200 1900
-Wire Wire Line
-	7200 2000 7000 2000
-Wire Wire Line
-	7000 2100 7200 2100
-Wire Wire Line
-	7200 2200 7000 2200
-Wire Wire Line
-	7000 2300 7200 2300
-Wire Wire Line
-	7200 2400 7000 2400
-Wire Wire Line
-	7000 2500 7200 2500
-Wire Wire Line
-	7200 2600 7000 2600
-Wire Wire Line
-	7000 2700 7200 2700
-Wire Wire Line
-	7200 2800 7000 2800
-Wire Wire Line
-	7000 2900 7200 2900
-Wire Wire Line
-	7200 3000 7000 3000
-Wire Wire Line
-	7000 3100 7200 3100
-Wire Wire Line
-	7200 3200 7000 3200
-Wire Wire Line
-	7000 3300 7200 3300
-Wire Wire Line
-	7200 3400 7000 3400
-Wire Wire Line
-	7200 3500 7000 3500
 Text Notes 4300 5800 0    60   ~ 0
 The original board has three banks of four 8k by 8 SRAM ICs. \n\nEach of the 3 ~CS1~ bank lines went to the enable of a decoder for \neach  bank. The decoder selected ~CS1~ of an SRAM IC based on A13/A14.\n\nIn this design, a single 128k by 8 SRAM is used. An encoder combines \nthe 3 ~CS1~ bank lines into two address lines, leaving one 32k bank \nof the SRAM unused. \n\nIt may be possible to use three 32k by 8 SRAMS and directly route\na ~CS1~ bank line to each. However that would not be entirely consistent \nwith the original RAM module: In the original, when logic power \nis cut (but SRAM power is still present), the ~CS1~ bank lines \ncan no longer drive the SRAM ~CS1~ lines. This circuit maintains\nthat behavior by having the ~CS1~ bank lines connect through the 74HC148.
 $Comp
@@ -528,125 +428,6 @@ F 3 "" H 3200 3900 50  0001 C CNN
 	1    3200 3900
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3700 3800 4000 3800
-Entry Wire Line
-	4100 3000 4000 3100
-Wire Wire Line
-	3700 3700 4000 3700
-Entry Wire Line
-	4100 1900 4000 2000
-Wire Wire Line
-	3700 3600 4000 3600
-Entry Wire Line
-	2900 3700 2800 3600
-Wire Wire Line
-	3700 3500 4000 3500
-Entry Wire Line
-	4100 2000 4000 2100
-Wire Wire Line
-	3700 3400 4000 3400
-Entry Wire Line
-	2900 3300 2800 3200
-Wire Wire Line
-	3700 3300 4000 3300
-Entry Wire Line
-	2900 3400 2800 3300
-Wire Wire Line
-	3700 3100 4000 3100
-Entry Wire Line
-	2900 3200 2800 3100
-Wire Wire Line
-	3700 3000 4000 3000
-Entry Wire Line
-	2900 3100 2800 3000
-Wire Wire Line
-	3700 2900 4000 2900
-Entry Wire Line
-	2900 2800 2800 2700
-Wire Wire Line
-	3700 2800 4000 2800
-Entry Wire Line
-	2900 2900 2800 2800
-Wire Wire Line
-	3700 2600 4000 2600
-Entry Wire Line
-	2900 2700 2800 2600
-Wire Wire Line
-	3700 2500 4000 2500
-Entry Wire Line
-	2900 2600 2800 2500
-Wire Wire Line
-	3700 2400 4000 2400
-Entry Wire Line
-	2900 2300 2800 2200
-Wire Wire Line
-	3700 2300 4000 2300
-Entry Wire Line
-	2900 2400 2800 2300
-Wire Wire Line
-	3700 2100 4000 2100
-Entry Wire Line
-	2900 2200 2800 2100
-Wire Wire Line
-	3700 2000 4000 2000
-Entry Wire Line
-	2900 2100 2800 2000
-Wire Wire Line
-	2900 3400 3200 3400
-Wire Wire Line
-	2900 3300 3200 3300
-Wire Wire Line
-	2900 3200 3200 3200
-Wire Wire Line
-	2900 3100 3200 3100
-Entry Wire Line
-	4100 3600 4000 3700
-Entry Wire Line
-	4100 3500 4000 3600
-Entry Wire Line
-	4100 3400 4000 3500
-Entry Wire Line
-	4100 3300 4000 3400
-Wire Wire Line
-	2900 3700 3200 3700
-Entry Wire Line
-	4100 3700 4000 3800
-Wire Wire Line
-	2900 2900 3200 2900
-Wire Wire Line
-	2900 2800 3200 2800
-Wire Wire Line
-	2900 2700 3200 2700
-Wire Wire Line
-	2900 2600 3200 2600
-Entry Wire Line
-	4100 2900 4000 3000
-Entry Wire Line
-	4100 2800 4000 2900
-Entry Wire Line
-	4100 2700 4000 2800
-Entry Wire Line
-	4100 2500 4000 2600
-Wire Wire Line
-	2900 2400 3200 2400
-Wire Wire Line
-	2900 2300 3200 2300
-Wire Wire Line
-	2900 2200 3200 2200
-Wire Wire Line
-	2900 2100 3200 2100
-Entry Wire Line
-	4100 2400 4000 2500
-Entry Wire Line
-	4100 2300 4000 2400
-Entry Wire Line
-	4100 2200 4000 2300
-Entry Wire Line
-	4100 3200 4000 3300
-Wire Bus Line
-	2800 1500 4100 1500
-Connection ~ 4100 1500
 $Comp
 L 000_LOCAL:74HC148 U2
 U 1 1 613445A6
@@ -659,26 +440,6 @@ F 3 "" H 5500 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6000 3100
-Wire Wire Line
-	5000 2600 4700 2600
-Entry Wire Line
-	4600 2500 4700 2600
-Wire Wire Line
-	5000 2700 4700 2700
-Entry Wire Line
-	4600 2600 4700 2700
-Wire Wire Line
-	5000 2500 4700 2500
-Entry Wire Line
-	4600 2400 4700 2500
-Entry Wire Line
-	6300 2500 6400 2400
-Wire Wire Line
-	6300 2500 6000 2500
-Entry Wire Line
-	6300 2600 6400 2500
-Wire Wire Line
-	6300 2600 6000 2600
 $Comp
 L 000_LOCAL:VCC #PWR0125
 U 1 1 613AE07E
@@ -716,10 +477,6 @@ Text Label 6000 3000 0    50   ~ 0
 ~CS1
 Text Label 8200 2800 0    50   ~ 0
 ~CS1
-Entry Wire Line
-	6300 3000 6400 2900
-Wire Wire Line
-	6300 3000 6000 3000
 $Comp
 L 000_LOCAL:GND #PWR0127
 U 1 1 6143EDD7
@@ -731,28 +488,6 @@ F 3 "" H 7700 3700 50  0001 C CNN
 	1    7700 3700
 	1    0    0    -1  
 $EndComp
-Entry Wire Line
-	8400 2800 8500 2700
-Entry Wire Line
-	8400 2900 8500 2800
-Entry Wire Line
-	8400 3000 8500 2900
-Entry Wire Line
-	8400 3100 8500 3000
-Wire Wire Line
-	8200 2800 8400 2800
-Wire Wire Line
-	8400 2900 8200 2900
-Wire Wire Line
-	8200 3000 8400 3000
-Wire Wire Line
-	8400 3100 8200 3100
-Connection ~ 6400 1500
-Wire Bus Line
-	6400 1500 6900 1500
-Connection ~ 6900 1500
-Wire Bus Line
-	6900 1500 8500 1500
 Text Label 8200 2900 0    50   ~ 0
 CS2
 Text Label 8200 3000 0    50   ~ 0
@@ -763,24 +498,7 @@ Text Label 5000 2500 2    60   ~ 0
 ~CS1_A
 Text Label 3700 2000 0    60   ~ 0
 ~CS1_A
-Text Notes 4020 3840 0    50   ~ 0
+Text Notes 3900 3800 0    50   ~ 0
 ~RAM_BACKUP
-Wire Bus Line
-	4100 1500 4600 1500
-Connection ~ 4600 1500
-Wire Bus Line
-	4600 1500 6400 1500
 NoConn ~ 6000 2700
-Wire Bus Line
-	4600 1500 4600 2600
-Wire Bus Line
-	6400 1500 6400 2900
-Wire Bus Line
-	8500 1500 8500 3000
-Wire Bus Line
-	2800 1500 2800 3600
-Wire Bus Line
-	4100 1500 4100 3700
-Wire Bus Line
-	6900 1500 6900 3400
 $EndSCHEMATC

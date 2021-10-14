@@ -17,7 +17,9 @@
 
 # History / Credits
 
-* 20211111 [v005](../../releases/v005) - Widen 74HC148 footprint to allow either SOIC or SOP
+* 20211014 [v006](../../releases/v006) - Re-arrange the /CS_A-C to /CS1,A15-16 wiring to use more fathomable pins on the 74HC148
+
+* 20210911 [v005](../../releases/v005) - Widen 74HC148 footprint to allow either SOIC or SOP
 
 * 20210812 [v004](../../releases/v004) - Un-scramble the address & data lines so for example D4 on the bus goes to D4 on the chip. Redraw the schematic. Redraw the pcb. Add scans of a few relevant pages from the TANDY 600 Service Manual.
 
