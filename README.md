@@ -4,7 +4,7 @@
 ![](PCB/TANDY_600_96K_SRAM_back.jpg)  
 ![](PCB/TANDY_600_96K_SRAM.svg)  
 
-[PCB from OSHPark](https://oshpark.com/shared_projects/ECt9SjHd)  
+[PCB from OSHPark](https://oshpark.com/shared_projects/w5HSUyX3)  
 [PCB from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_RAM.html)  
 
 [BOM from DigiKey](https://www.digikey.com/short/40jz275w)
@@ -17,7 +17,7 @@
 
 # History / Credits
 
-* 20211014 [v006](../../releases/v006) - Re-arrange the /CS_A-C to /CS1,A15-16 wiring to use more fathomable pins on the 74HC148
+* 20211015 [v006](../../releases/v006) - Re-arrange the /CS1_A,/CS1_B,/CS1_C to /CS1,A15,A16 wiring to use more fathomable pins on the 74HC148
 
 * 20210911 [v005](../../releases/v005) - Widen 74HC148 footprint to allow either SOIC or SOP
 
