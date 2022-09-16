@@ -4,10 +4,10 @@
 ![](PCB/TANDY_600_96K_SRAM_bottom.jpg)  
 ![](PCB/TANDY_600_96K_SRAM.svg)  
 
-[PCB from OSHPark](https://oshpark.com/shared_projects/w5HSUyX3)  
+[PCB from OSHPark](https://oshpark.com/shared_projects/nBVWvJ2W)  
 [PCB from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_RAM.html)  
 
-[BOM from DigiKey](https://www.digikey.com/short/40jz275w)
+[BOM from DigiKey](https://www.digikey.com/short/bmpbhbtb)
 
 [Gerbers](../../releases/latest)
 
