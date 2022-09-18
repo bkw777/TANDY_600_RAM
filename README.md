@@ -1,6 +1,7 @@
 # 96K SRAM for TANDY 600
 
 ![](PCB/TANDY_600_96K_SRAM.jpg)  
+![](PCB/TANDY_600_96K_SRAM_top.jpg)  
 ![](PCB/TANDY_600_96K_SRAM_bottom.jpg)  
 ![](PCB/TANDY_600_96K_SRAM.svg)  
 
@@ -14,6 +15,16 @@
 ![](TANDY_600_RAM_1.jpg)
 
 ![](TANDY_600_RAM_2.jpg)
+
+# TINY Version
+
+![](PCB/TANDY_600_96K_SRAM_tiny_a.jpg)  
+![](PCB/TANDY_600_96K_SRAM_tiny_b.jpg)  
+![](PCB/TANDY_600_96K_SRAM_tiny_top.jpg)  
+![](PCB/TANDY_600_96K_SRAM_tiny_bottom.jpg)  
+
+[BOM from DigiKey](https://www.digikey.com/short/dd84d9w2)
+
 
 # History / Credits
 
