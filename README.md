@@ -1,9 +1,9 @@
 # 96K SRAM for TANDY 600
 
-![](PCB/TANDY_600_96K_SRAM.jpg)  
-![](PCB/TANDY_600_96K_SRAM_top.jpg)  
-![](PCB/TANDY_600_96K_SRAM_bottom.jpg)  
-![](PCB/TANDY_600_96K_SRAM.svg)  
+![](../../raw/main/PCB/TANDY_600_96K_SRAM.jpg)  
+![](../../raw/main/PCB/TANDY_600_96K_SRAM_top.jpg)  
+![](../../raw/main/PCB/TANDY_600_96K_SRAM_bottom.jpg)  
+![](../../raw/main/PCB/TANDY_600_96K_SRAM.svg)  
 
 [PCB from OSHPark](https://oshpark.com/shared_projects/nBVWvJ2W)  
 [PCB from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_RAM.html)  
@@ -16,14 +16,16 @@
 
 ![](TANDY_600_RAM_2.jpg)
 
+----
+
 # TINY Version
 
-![](PCB/TANDY_600_96K_SRAM_tiny_a.jpg)  
-![](PCB/TANDY_600_96K_SRAM_tiny_b.jpg)  
-![](PCB/TANDY_600_96K_SRAM_tiny_top.jpg)  
-![](PCB/TANDY_600_96K_SRAM_tiny_bottom.jpg)  
+![](../../raw/main/PCB/TANDY_600_96K_SRAM_tiny_a.jpg)  
+![](../../raw/main/PCB/TANDY_600_96K_SRAM_tiny_b.jpg)  
+![](../../raw/main/PCB/TANDY_600_96K_SRAM_tiny_top.jpg)  
+![](../../raw/main/PCB/TANDY_600_96K_SRAM_tiny_bottom.jpg)  
 
-[BOM from DigiKey](https://www.digikey.com/short/dd84d9w2)
+[BOM for tiny version](https://www.digikey.com/short/dd84d9w2)
 
 
 # History / Credits
