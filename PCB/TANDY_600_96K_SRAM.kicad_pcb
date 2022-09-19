@@ -7,7 +7,7 @@
   (paper "A4")
   (title_block
     (title "TANDY 600 96K SRAM")
-    (date "2022-09-16")
+    (date "2022-09-19")
     (rev "008")
     (company "Brian K. White - b.kenyon.w@gmail.com")
     (comment 1 "LICENSE: CC-BY-SA 4.0")
@@ -323,7 +323,7 @@
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-000061163f2f")
     (attr through_hole)
-    (fp_text reference "J1" (at 30.48 -1.27) (layer "F.SilkS")
+    (fp_text reference "J1" (at 30.48 -1.27) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp db012a46-96db-4af1-9050-16d88ac8e997)
     )
