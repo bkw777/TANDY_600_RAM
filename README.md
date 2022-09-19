@@ -19,13 +19,20 @@
 ----
 
 # TINY Version
+There are two tiny versions. I can't decide if one is any better than the other wrt routing, signal quality, gound paths, etc.  
 
+## Tiny
 ![](../../raw/main/PCB/TANDY_600_96K_SRAM_tiny.jpg)  
 ![](../../raw/main/PCB/TANDY_600_96K_SRAM_tiny_a.jpg)  
 ![](../../raw/main/PCB/TANDY_600_96K_SRAM_tiny_b.jpg)  
 ![](../../raw/main/PCB/TANDY_600_96K_SRAM_tiny_c.jpg)  
 ![](../../raw/main/PCB/TANDY_600_96K_SRAM_tiny_top.jpg)  
 ![](../../raw/main/PCB/TANDY_600_96K_SRAM_tiny_bottom.jpg)  
+
+## Tiny Alt
+![](../../raw/main/PCB/TANDY_600_96K_SRAM_tiny_alt.jpg)  
+![](../../raw/main/PCB/TANDY_600_96K_SRAM_tiny_alt_top.jpg)  
+![](../../raw/main/PCB/TANDY_600_96K_SRAM_tiny_alt_bottom.jpg)  
 
 [BOM for tiny version](https://www.digikey.com/short/dd84d9w2)
 
