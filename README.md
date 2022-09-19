@@ -29,6 +29,10 @@
 
 [BOM for tiny version](https://www.digikey.com/short/dd84d9w2)
 
+# Misc  
+The teardrops in the gerbers are only applied just before exporting gerbers, and then changes discarded without saving to the file, because the teardrops are generated using a hacky and buggy plugin: https://github.com/NilujePerchut/kicad_scripts
+
+Similarly, the curved traces are using a built-in kicad 6 feature, but it's a half-baked feature that renders the traces uneditable after that except by deleting an re-drawing, so these too are only applied just before exporting gerbers and 3d renders, and then the pcb editor is closed DISCARDING CHANGES.
 
 # History / Credits
 
