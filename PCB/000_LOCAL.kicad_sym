@@ -22,7 +22,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "628128_SOP_0_0"
-      (pin power_in line (at 0 -22.86 90) (length 2.54) hide
+      (pin power_in line (at 0 -25.4 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
@@ -183,7 +183,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "628128_TSOP_0_0"
-      (pin power_in line (at 0 -22.86 90) (length 2.54) hide
+      (pin power_in line (at 0 -25.4 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "24" (effects (font (size 1.27 1.27))))
       )
@@ -397,7 +397,7 @@
         (name "S1" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -12.7 90) (length 5.08) hide
+      (pin power_in line (at 0 -17.78 90) (length 5.08)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )

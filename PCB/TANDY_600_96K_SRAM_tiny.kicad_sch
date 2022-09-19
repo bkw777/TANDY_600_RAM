@@ -37,7 +37,7 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "628128_TSOP_0_0"
-        (pin power_in line (at 0 -22.86 90) (length 2.54) hide
+        (pin power_in line (at 0 -25.4 90) (length 2.54)
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "24" (effects (font (size 1.27 1.27))))
         )
@@ -251,7 +251,7 @@
           (name "S1" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at 0 -12.7 90) (length 5.08) hide
+        (pin power_in line (at 0 -17.78 90) (length 5.08)
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "8" (effects (font (size 1.27 1.27))))
         )
@@ -1604,7 +1604,7 @@
     (uuid 00000000-0000-0000-0000-0000613445a6)
     (property "Reference" "U2" (id 0) (at 129.032 60.96 0))
     (property "Value" "74HC148" (id 1) (at 130.175 63.627 0))
-    (property "Footprint" "" (id 2) (at 124.46 78.74 0)
+    (property "Footprint" "000_LOCAL:SOIC-SOP-16" (id 2) (at 124.46 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 124.46 78.74 0)
@@ -1723,6 +1723,38 @@
     (pin "1" (uuid c621ca2a-c59c-4fd6-b5d7-0e3038a91465))
   )
 
+  (symbol (lib_id "000_LOCAL:GND") (at 180.34 99.06 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 74374810-89ba-4a89-82f9-8e20f931d97f)
+    (property "Reference" "#PWR?" (id 0) (at 180.34 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (id 1) (at 180.848 103.886 0))
+    (property "Footprint" "" (id 2) (at 180.34 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 180.34 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 723e9870-3acb-4b32-a68a-e44fc8eedd05))
+  )
+
+  (symbol (lib_id "000_LOCAL:GND") (at 124.46 96.52 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid bac393f2-42f7-4a8c-a143-f880697027e5)
+    (property "Reference" "#PWR?" (id 0) (at 124.46 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (id 1) (at 124.968 101.346 0))
+    (property "Footprint" "" (id 2) (at 124.46 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 124.46 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3fd813bc-0085-45b0-9fcc-96bdaf01aa11))
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )
@@ -1808,6 +1840,12 @@
     )
     (path "/3c42ef3f-4aeb-4f1a-8bab-117461e8f231"
       (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/74374810-89ba-4a89-82f9-8e20f931d97f"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/bac393f2-42f7-4a8c-a143-f880697027e5"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000586e7dab"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "000_LOCAL:C_0805")
