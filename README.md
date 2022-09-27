@@ -33,7 +33,7 @@ Not tested yet.  Testing in progress.
 ![](../../raw/main/PCB/TANDY_600_RAM_THT.top.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_THT.bottom.jpg)  
 
-[BOM for THT version](../../raw/main/TANDY_600_RAM_THT.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/40rn5db3))  
+[BOM for THT version](../../raw/main/TANDY_600_RAM_THT.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/9bmwwb7z))  
 (Link to order PCB will be added after testing)
 
 ----
