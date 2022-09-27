@@ -15,8 +15,7 @@ The previous v009 version based on a 74148 IS tested, and so the PCB and BOM lin
 
 [PCB from OSHPark](https://oshpark.com/shared_projects/nBVWvJ2W)  
 [PCB from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_RAM.html)  
-
-[BOM from DigiKey](https://www.digikey.com/short/bmpbhbtb)
+[BOM](../../raw/main/TANDY_600_RAM.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/bmpbhbtb))  
 
 [Gerbers](../../releases/latest)
 
@@ -34,7 +33,7 @@ Not tested yet.  Testing in progress.
 ![](../../raw/main/PCB/TANDY_600_RAM_THT.top.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_THT.bottom.jpg)  
 
-[BOM for THT version](../../raw/main/PCB/TANDY_600_RAM_THT.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/40rn5db3))  
+[BOM for THT version](../../raw/main/TANDY_600_RAM_THT.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/40rn5db3))  
 (Link to order PCB will be added after testing)
 
 ----
@@ -47,7 +46,7 @@ Not tested yet. Testing in progress.
 ![](../../raw/main/PCB/TANDY_600_RAM_tiny.top.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_tiny.bottom.jpg)  
 
-[BOM for tiny version](../../raw/main/PCB/TANDY_600_RAM_tiny.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/p907n2hq))  
+[BOM for tiny version](../../raw/main/TANDY_600_RAM_tiny.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/p907n2hq))  
 (Link to order PCB will be added after testing)
 
 ----
