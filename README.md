@@ -4,7 +4,7 @@ There are 3 main versions to choose from.
 
 ## Standard Version  
 
-The current v010 source is based on a 7408 and is not tested yet.  Testing in progress.
+The current v010 source is based on a 7408 and is not tested yet.  Testing in progress.  
 The previous v009 version based on a 74148 IS tested, and so the PCB and BOM links below are still for the v009 release version.  
 (although the pictures and schematic are for the current version)
 
