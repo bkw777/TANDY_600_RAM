@@ -9,8 +9,8 @@ The previous v009 version based on a 74148 IS tested, and so the PCB and BOM lin
 (although the pictures and schematic are for the current version)
 
 ![](../../raw/main/PCB/TANDY_600_RAM.jpg)  
-![](../../raw/main/PCB/TANDY_600_RAM_top.jpg)  
-![](../../raw/main/PCB/TANDY_600_RAM_bottom.jpg)  
+![](../../raw/main/PCB/TANDY_600_RAM.top.jpg)  
+![](../../raw/main/PCB/TANDY_600_RAM.bottom.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM.svg)  
 
 [PCB from OSHPark](https://oshpark.com/shared_projects/nBVWvJ2W)  
@@ -26,7 +26,7 @@ The previous v009 version based on a 74148 IS tested, and so the PCB and BOM lin
 
 ----
 
-## THT (hrough-hole) Version  
+## THT (through-hole) Version  
 
 Not tested yet.  Testing in progress.  
 
@@ -58,7 +58,7 @@ Not tested yet. Testing in progress.
 The teardrops and curved traces in the pics and gerbers are only applied just before exporting gerbers, and then discarded without saving changes to the surce kicad_pcb file.
 
 Aside from the 3 versions above, there are also several more variations in the ALT directory.  
-The differences are some are based on a 74148 8:3 encoder like the original version up to v009, and some are based on a simpler 3 AND gates from a 7408, some place the 74148 or 7408 on the left, one the right, turned vertical or horizontal.  
+The differences are some are based on a 74148 8:3 encoder like the original version up to v009, and some are based on a simpler 3 AND gates from a 7408, some place the 74148 or 7408 on the left, on the right, turned vertical, turned horizontal.  
 These are all just experiments to try to figure out if the routing comes out better one way vs another. I can't decide if any are significantly better than another, but they're all done and should all work, so I include them in case anyone else wants to consider them, and to keep the 74148 versions available and handy until the 7408 version is proven.
 
 <!-- 
