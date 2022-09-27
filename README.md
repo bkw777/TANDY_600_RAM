@@ -1,9 +1,17 @@
 # 96K SRAM for TANDY 600
 
-![](../../raw/main/PCB/TANDY_600_96K_SRAM.jpg)  
-![](../../raw/main/PCB/TANDY_600_96K_SRAM_top.jpg)  
-![](../../raw/main/PCB/TANDY_600_96K_SRAM_bottom.jpg)  
-![](../../raw/main/PCB/TANDY_600_96K_SRAM.svg)  
+There are 3 main versions to choose from.
+
+## Standard Version  
+
+The current v010 source is based on a 7408 and is not tested yet.  Testing in progress.
+The previous v009 version based on a 74148 IS tested, and so the PCB and BOM links below are still for the v009 release version.  
+(although the pictures and schematic are for the current version)
+
+![](../../raw/main/PCB/TANDY_600_RAM.jpg)  
+![](../../raw/main/PCB/TANDY_600_RAM_top.jpg)  
+![](../../raw/main/PCB/TANDY_600_RAM_bottom.jpg)  
+![](../../raw/main/PCB/TANDY_600_RAM.svg)  
 
 [PCB from OSHPark](https://oshpark.com/shared_projects/nBVWvJ2W)  
 [PCB from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_RAM.html)  
@@ -18,26 +26,45 @@
 
 ----
 
-# TINY Version
-There are two tiny versions. I can't decide if one is any better than the other wrt routing, signal quality, gound paths, etc.  
+## THT (hrough-hole) Version  
 
-## Tiny
-![](../../raw/main/PCB/TANDY_600_96K_SRAM_tiny.jpg)  
-![](../../raw/main/PCB/TANDY_600_96K_SRAM_tiny_a.jpg)  
-![](../../raw/main/PCB/TANDY_600_96K_SRAM_tiny_b.jpg)  
-![](../../raw/main/PCB/TANDY_600_96K_SRAM_tiny_c.jpg)  
-![](../../raw/main/PCB/TANDY_600_96K_SRAM_tiny_top.jpg)  
-![](../../raw/main/PCB/TANDY_600_96K_SRAM_tiny_bottom.jpg)  
+Not tested yet.  Testing in progress.  
 
-## Tiny Alt
-![](../../raw/main/PCB/TANDY_600_96K_SRAM_tiny_alt.jpg)  
-![](../../raw/main/PCB/TANDY_600_96K_SRAM_tiny_alt_top.jpg)  
-![](../../raw/main/PCB/TANDY_600_96K_SRAM_tiny_alt_bottom.jpg)  
+![](../../raw/main/PCB/TANDY_600_RAM_THT.jpg)  
+![](../../raw/main/PCB/TANDY_600_RAM_THT.top.jpg)  
+![](../../raw/main/PCB/TANDY_600_RAM_THT.bottom.jpg)  
 
-[BOM for tiny version](https://www.digikey.com/short/dd84d9w2)
+[BOM for tiny version](../../raw/main/PCB/TANDY_600_RAM_THT.BOM.csv)  
+<!-- [BOM for tiny version](https://www.digikey.com/short/dd84d9w2)  -->
+(Link to order PCB will be added after testing)
+
+----
+
+## Tiny Version  
+
+Not tested yet. Testing in progress.  
+
+![](../../raw/main/PCB/TANDY_600_RAM_tiny.jpg)  
+![](../../raw/main/PCB/TANDY_600_RAM_tiny.top.jpg)  
+![](../../raw/main/PCB/TANDY_600_RAM_tiny.bottom.jpg)  
+
+[BOM for tiny version](../../raw/main/PCB/TANDY_600_RAM_tiny.BOM.csv)  
+<!-- [BOM for tiny version](https://www.digikey.com/short/dd84d9w2)  -->
+(Link to order PCB will be added after testing)
+
+----
 
 # Misc  
 The teardrops and curved traces in the pics and gerbers are only applied just before exporting gerbers, and then discarded without saving changes to the surce kicad_pcb file.
+
+Aside from the 3 versions above, there are also several more variations in the ALT directory.  
+The differences are some are based on a 74148 8:3 encoder like the original version up to v009, and some are based on a simpler 3 AND gates from a 7408, some place the 74148 or 7408 on the left, one the right, turned vertical or horizontal.  
+These are all just experiments to try to figure out if the routing comes out better one way vs another. I can't decide if any are significantly better than another, but they're all done and should all work, so I include them in case anyone else wants to consider them, and to keep the 74148 versions available and handy until the 7408 version is proven.
+
+<!-- 
+How the 7408 circuit works:  
+https://circuitverse.org/users/103984/projects/tandy-600-ram  
+-->
 
 # History / Credits
 
