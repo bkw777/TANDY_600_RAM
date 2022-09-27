@@ -47,8 +47,7 @@ Not tested yet. Testing in progress.
 ![](../../raw/main/PCB/TANDY_600_RAM_tiny.top.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_tiny.bottom.jpg)  
 
-[BOM for tiny version](../../raw/main/PCB/TANDY_600_RAM_tiny.BOM.csv)  
-<!-- [BOM for tiny version](https://www.digikey.com/short/dd84d9w2)  -->
+[BOM for tiny version](../../raw/main/PCB/TANDY_600_RAM_tiny.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/p907n2hq))  
 (Link to order PCB will be added after testing)
 
 ----
