@@ -62,6 +62,8 @@ Single board that plugs into both CN1 and CN2 and supplies all 192K at once.
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL.bottom.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL.svg)  
 
+[BOM for DUAL version](../../raw/main/TANDY_600_RAM_DUAL.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/rvb8thqw)
+
 # Misc  
 The teardrops and curved traces in the pics and gerbers are only applied just before exporting gerbers, and then discarded without saving changes to the surce kicad_pcb file.
 
