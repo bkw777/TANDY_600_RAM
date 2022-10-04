@@ -68,7 +68,7 @@ Single board that plugs into both CN1 and CN2 and supplies all 192K at once.
 The teardrops and curved traces in the pics and gerbers are only applied just before exporting gerbers, and then discarded without saving changes to the surce kicad_pcb file.
 
 Aside from the 3 versions above, there are also several more variations in the ALT directory.  
-The differences are some are based on a 74148 8:3 encoder like the original version up to v009, and some are based on a simpler 3 AND gates from a 7408, some place the 74148 or 7408 on the left, on the right, turned vertical, turned horizontal.  
+The differences are some are based on a 74148 8:3 encoder like the original version and up to v009, and some are based on a simpler 3 AND gates from a 7408, some place the 74148 or 7408 on the left, on the right, turned vertical, turned horizontal.  
 These are all just experiments to try to figure out if the routing comes out better one way vs another. I can't decide if any are significantly better than another, but they're all done and should all work, so I include them in case anyone else wants to consider them, and to keep the 74148 versions available and handy until the 7408 version is proven.
 
 <!-- 
