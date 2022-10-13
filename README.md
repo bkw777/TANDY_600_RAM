@@ -53,16 +53,19 @@ Not tested yet. Testing in progress.
 
 ## DUAL VERSION
 
-Not tested yet. Testing in progress.
-
 Single board that plugs into both CN1 and CN2 and supplies all 192K at once.
 
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL.top.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL.bottom.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL.svg)  
+![](../../raw/main/TANDY_600_RAM_DUAL.install.jpg)  
+![](../../raw/main/TANDY_600_RAM_DUAL.display.jpg)  
 
-[BOM for DUAL version](../../raw/main/TANDY_600_RAM_DUAL.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/rvb8thqw)
+[BOM for DUAL version](../../raw/main/TANDY_600_RAM_DUAL.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/53w2v1h5)  
+<!-- [PCB from OSHPark]()  -->
+[PCB from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_192K_DUAL_RAM_96d16a20.html)  
+
 
 # Misc  
 The teardrops and curved traces in the pics and gerbers are only applied just before exporting gerbers, and then discarded without saving changes to the surce kicad_pcb file.
