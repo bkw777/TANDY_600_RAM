@@ -77,7 +77,7 @@ https://circuitverse.org/users/103984/projects/tandy-600-ram
 
 # History / Credits
 
-In 2017 I asked on the Tandy Color Computer Facebook group if anyone could clone a 96K ram board for Model 600, and Jayeson Lee-Steere produced Model600Sram_v1.1 and placed it in the public domain.  
-https://www.facebook.com/groups/2359462640/permalink/10154864662292641/
+In 2017 I asked on the Tandy Color Computer Facebook group [if anyone could clone a 96K ram board for Model 600](https://www.facebook.com/groups/2359462640/permalink/10154864662292641/), and Jayeson Lee-Steere produced [Model600Sram_v1.1](https://github.com/bkw777/TANDY_600_RAM/tree/JLS-1.1) and placed it in the public domain.  
 
-This version has been modified somewhat since then.
+This version is different now but started from that.
+
