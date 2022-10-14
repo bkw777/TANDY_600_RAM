@@ -4,18 +4,14 @@ There are 3 main versions to choose from.
 
 ## Standard Version  
 
-The current v010 source is based on a 7408 and is not tested yet.  Testing in progress.  
-The previous v009 version based on a 74148 IS tested, and so the PCB and BOM links below are still for the v009 release version.  
-(although the pictures and schematic are for the current version)
-
 ![](../../raw/main/PCB/TANDY_600_RAM.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM.top.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM.bottom.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM.svg)  
 
-[PCB from OSHPark](https://oshpark.com/shared_projects/nBVWvJ2W)  
+<!-- [PCB from OSHPark](https://oshpark.com/shared_projects/nBVWvJ2W)  -->
 [PCB from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_RAM.html)  
-[BOM](../../raw/main/TANDY_600_RAM.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/bmpbhbtb))  
+[BOM](../../raw/main/TANDY_600_RAM.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/mjtb7rnn))  
 
 [Gerbers](../../releases/latest)
 
