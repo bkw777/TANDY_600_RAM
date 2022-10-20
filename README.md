@@ -29,7 +29,7 @@ Not tested yet.  Testing in progress.
 ![](../../raw/main/PCB/TANDY_600_RAM_THT.top.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_THT.bottom.jpg)  
 
-[BOM for THT version](../../raw/main/TANDY_600_RAM_THT.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/9bmwwb7z))  
+[BOM for THT version](../../raw/main/TANDY_600_RAM_THT.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/5q7bmv0q))  
 (Link to order PCB will be added after testing)
 
 ----
@@ -62,22 +62,25 @@ Single board that plugs into both CN1 and CN2 and supplies all 192K at once.
 <!-- [PCB from OSHPark]()  -->
 [PCB from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_192K_DUAL_RAM_96d16a20.html)  
 
+----
 
-# Misc  
-The teardrops and curved traces in the pics and gerbers are only applied just before exporting gerbers, and then discarded without saving changes to the surce kicad_pcb file.
+## DUAL_full Version
 
-Aside from the 3 versions above, there are also several more variations in the ALT directory.  
-The differences are some are based on a 74148 8:3 encoder like the original version and up to v009, and some are based on a simpler 3 AND gates from a 7408, some place the 74148 or 7408 on the left, on the right, turned vertical, turned horizontal.  
-These are all just experiments to try to figure out if the routing comes out better one way vs another. I can't decide if any are significantly better than another, but they're all done and should all work, so I include them in case anyone else wants to consider them, and to keep the 74148 versions available and handy until the 7408 version is proven.
+This is the same as the DUAL version, just with the full connectors for polarity enforcement.  
+The pcb is larger to match the connectors, and a few traces are moved slightly to take advantage of the larger pcb for better ground paths and fewer vias needed.  
 
-<!-- 
-How the 7408 circuit works:  
-https://circuitverse.org/users/103984/projects/tandy-600-ram  
--->
+![](../../raw/main/PCB/TANDY_600_RAM_DUAL_full.jpg)  
+![](../../raw/main/PCB/TANDY_600_RAM_DUAL_full.plugs.jpg)  
+![](../../raw/main/PCB/TANDY_600_RAM_DUAL_full.top.jpg)  
+![](../../raw/main/PCB/TANDY_600_RAM_DUAL_full.bottom.jpg)  
+![](../../raw/main/PCB/TANDY_600_RAM_DUAL_full.svg)  
+
+[BOM for DUAL_full version](../../raw/main/TANDY_600_RAM_DUAL_full.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/ctmq5hdj)  
+
+----
 
 # History / Credits
 
 In 2017 I asked on the Tandy Color Computer Facebook group [if anyone could clone a 96K ram board for Model 600](https://www.facebook.com/groups/2359462640/permalink/10154864662292641/), and Jayeson Lee-Steere produced [Model600Sram_v1.1](https://github.com/bkw777/TANDY_600_RAM/tree/JLS-1.1) and placed it in the public domain.  
 
 This version is different now but started from that.
-
