@@ -75,7 +75,7 @@ The pcb is larger to match the connectors, and a few traces are moved slightly t
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL_full.bottom.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL_full.svg)  
 
-[BOM for DUAL_full version](../../raw/main/TANDY_600_RAM_DUAL_full.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/ctmq5hdj)  
+[BOM for DUAL_full version](../../raw/main/TANDY_600_RAM_DUAL_full.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/ctmq5hdj))  
 
 ----
 
