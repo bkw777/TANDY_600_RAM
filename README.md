@@ -1,6 +1,12 @@
-# 96K SRAM for TANDY 600
+# SRAM modules for TANDY 600
 
-There are 3 main versions to choose from.
+There are several versions to choose from.
+
+[Default SMT single-bank 96K](#standard-version)  
+[Through-Hole single-bank 96K](#through-hole-version)  
+[Tiny single-bank 96K](#tiny-version)  
+[Tiny dual-bank 192K](#dual-version)  
+[Full dual-bank 192K](#dual_full-version)
 
 ## Standard Version  
 <!-- [PCB from OSHPark](https://oshpark.com/shared_projects/nBVWvJ2W)  -->
