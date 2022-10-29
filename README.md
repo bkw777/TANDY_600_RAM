@@ -3,34 +3,35 @@
 There are 3 main versions to choose from.
 
 ## Standard Version  
-
-![](../../raw/main/PCB/TANDY_600_RAM.jpg)  
-![](../../raw/main/PCB/TANDY_600_RAM.top.jpg)  
-![](../../raw/main/PCB/TANDY_600_RAM.bottom.jpg)  
-![](../../raw/main/PCB/TANDY_600_RAM.svg)  
-
 <!-- [PCB from OSHPark](https://oshpark.com/shared_projects/nBVWvJ2W)  -->
 [PCB from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_RAM.html)  
 [BOM](../../raw/main/TANDY_600_RAM.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/mjtb7rnn))  
 
 [Gerbers](../../releases/latest)
 
-![](../../raw/main/TANDY_600_RAM_1.jpg)
-
-![](../../raw/main/TANDY_600_RAM_2.jpg)
+![](../../raw/main/PCB/TANDY_600_RAM.jpg)  
+![](../../raw/main/PCB/TANDY_600_RAM.top.jpg)  
+![](../../raw/main/PCB/TANDY_600_RAM.bottom.jpg)  
+![](../../raw/main/PCB/TANDY_600_RAM.svg)  
+![](../../raw/main/TANDY_600_RAM.1.jpg)  
+![](../../raw/main/TANDY_600_RAM.2.jpg)
 
 ----
 
-## THT (through-hole) Version  
+## Through-Hole Version  
 
-Not tested yet.  Testing in progress.  
+Electrically the same as the standard version, just with all through-hole components.  
+There is room for the IC's to be socketed, and the BOM includes sockets.  
+
+[PCB for THT version from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_RAM_96K_THT_70a7bb4c.html)
+[BOM for THT version](../../raw/main/TANDY_600_RAM_THT.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/5q7bmv0q))  
 
 ![](../../raw/main/PCB/TANDY_600_RAM_THT.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_THT.top.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_THT.bottom.jpg)  
-
-[BOM for THT version](../../raw/main/TANDY_600_RAM_THT.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/5q7bmv0q))  
-(Link to order PCB will be added after testing)
+![](../../raw/main/TANDY_600_RAM_THT.1.jpg)  
+![](../../raw/main/TANDY_600_RAM_THT.2.jpg)  
+![](../../raw/main/TANDY_600_RAM_THT.3.jpg)  
 
 ----
 
@@ -38,19 +39,23 @@ Not tested yet.  Testing in progress.
 
 Not tested yet. Testing in progress.  
 
+[BOM for tiny version](../../raw/main/TANDY_600_RAM_tiny.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/p907n2hq))  
+(Link to order PCB will be added after testing)
+
 ![](../../raw/main/PCB/TANDY_600_RAM_tiny.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_tiny.20mm.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_tiny.top.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_tiny.bottom.jpg)  
 
-[BOM for tiny version](../../raw/main/TANDY_600_RAM_tiny.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/p907n2hq))  
-(Link to order PCB will be added after testing)
-
 ----
 
 ## DUAL VERSION
 
-Single board that plugs into both CN1 and CN2 and supplies all 192K at once.
+Single board that plugs into both CN1 and CN2 and supplies all 192K at once.  
+
+[BOM for DUAL version](../../raw/main/TANDY_600_RAM_DUAL.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/53w2v1h5)  
+<!-- [PCB from OSHPark]()  -->
+[PCB from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_192K_DUAL_RAM_96d16a20.html)  
 
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL.b.jpg)  
@@ -60,10 +65,6 @@ Single board that plugs into both CN1 and CN2 and supplies all 192K at once.
 ![](../../raw/main/TANDY_600_RAM_DUAL.install.jpg)  
 ![](../../raw/main/TANDY_600_RAM_DUAL.display.jpg)  
 
-[BOM for DUAL version](../../raw/main/TANDY_600_RAM_DUAL.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/53w2v1h5)  
-<!-- [PCB from OSHPark]()  -->
-[PCB from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_192K_DUAL_RAM_96d16a20.html)  
-
 ----
 
 ## DUAL_full Version
@@ -71,14 +72,14 @@ Single board that plugs into both CN1 and CN2 and supplies all 192K at once.
 This is the same as the DUAL version, just with the full connectors for polarity enforcement.  
 The pcb is larger to match the connectors, and a few traces are moved slightly to take advantage of the larger pcb for better ground paths and fewer vias needed.  
 
+[BOM for DUAL_full version](../../raw/main/TANDY_600_RAM_DUAL_full.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/ctmq5hdj))  
+
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL_full.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL_full.b.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL_full.plugs.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL_full.top.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL_full.bottom.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL_full.svg)  
-
-[BOM for DUAL_full version](../../raw/main/TANDY_600_RAM_DUAL_full.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/ctmq5hdj))  
 
 ----
 
