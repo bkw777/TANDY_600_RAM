@@ -23,7 +23,7 @@ There are 3 main versions to choose from.
 Electrically the same as the standard version, just with all through-hole components.  
 There is room for the IC's to be socketed, and the BOM includes sockets.  
 
-[PCB for THT version from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_RAM_96K_THT_70a7bb4c.html)
+[PCB for THT version from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_RAM_96K_THT_70a7bb4c.html)  
 [BOM for THT version](../../raw/main/TANDY_600_RAM_THT.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/5q7bmv0q))  
 
 ![](../../raw/main/PCB/TANDY_600_RAM_THT.jpg)  
