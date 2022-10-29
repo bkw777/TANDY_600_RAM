@@ -7,7 +7,7 @@ There are 3 main versions to choose from.
 [PCB from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_RAM.html)  
 [BOM](../../raw/main/TANDY_600_RAM.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/mjtb7rnn))  
 
-[Gerbers](../../releases/latest)
+<!-- [Gerbers](../../releases/latest) -->
 
 ![](../../raw/main/PCB/TANDY_600_RAM.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM.top.jpg)  
