@@ -5,7 +5,7 @@ There are 3 main versions to choose from.
 ## Standard Version  
 <!-- [PCB from OSHPark](https://oshpark.com/shared_projects/nBVWvJ2W)  -->
 [PCB from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_RAM.html)  
-[BOM](../../raw/main/TANDY_600_RAM.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/mjtb7rnn))  
+[TANDY_600_RAM.BOM.csv](../../raw/main/TANDY_600_RAM.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/mjtb7rnn))  
 
 <!-- [Gerbers](../../releases/latest) -->
 
@@ -24,7 +24,7 @@ Electrically the same as the standard version, just with all through-hole compon
 There is room for the IC's to be socketed, and the BOM includes sockets.  
 
 [PCB for THT version from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_RAM_96K_THT_70a7bb4c.html)  
-[BOM for THT version](../../raw/main/TANDY_600_RAM_THT.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/5q7bmv0q))  
+[TANDY_600_RAM_THT.BOM.csv](../../raw/main/TANDY_600_RAM_THT.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/5q7bmv0q))  
 
 ![](../../raw/main/PCB/TANDY_600_RAM_THT.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_THT.top.jpg)  
@@ -39,7 +39,7 @@ There is room for the IC's to be socketed, and the BOM includes sockets.
 
 Not tested yet. Testing in progress.  
 
-[BOM for tiny version](../../raw/main/TANDY_600_RAM_tiny.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/p907n2hq))  
+[TANDY_600_RAM_tiny.BOM.csv](../../raw/main/TANDY_600_RAM_tiny.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/p907n2hq))  
 (Link to order PCB will be added after testing)
 
 ![](../../raw/main/PCB/TANDY_600_RAM_tiny.jpg)  
@@ -53,7 +53,7 @@ Not tested yet. Testing in progress.
 
 Single board that plugs into both CN1 and CN2 and supplies all 192K at once.  
 
-[BOM for DUAL version](../../raw/main/TANDY_600_RAM_DUAL.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/53w2v1h5)  
+[TANDY_600_RAM_DUAL.BOM.csv](../../raw/main/TANDY_600_RAM_DUAL.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/53w2v1h5)  
 <!-- [PCB from OSHPark]()  -->
 [PCB from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_192K_DUAL_RAM_96d16a20.html)  
 
@@ -72,7 +72,7 @@ Single board that plugs into both CN1 and CN2 and supplies all 192K at once.
 This is the same as the DUAL version, just with the full connectors for polarity enforcement.  
 The pcb is larger to match the connectors, and a few traces are moved slightly to take advantage of the larger pcb for better ground paths and fewer vias needed.  
 
-[BOM for DUAL_full version](../../raw/main/TANDY_600_RAM_DUAL_full.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/ctmq5hdj))  
+[TANDY_600_RAM_DUAL_full.BOM.csv](../../raw/main/TANDY_600_RAM_DUAL_full.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/ctmq5hdj))  
 
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL_full.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL_full.b.jpg)  
