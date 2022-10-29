@@ -39,6 +39,7 @@ Not tested yet.  Testing in progress.
 Not tested yet. Testing in progress.  
 
 ![](../../raw/main/PCB/TANDY_600_RAM_tiny.jpg)  
+![](../../raw/main/PCB/TANDY_600_RAM_tiny.20mm.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_tiny.top.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_tiny.bottom.jpg)  
 
@@ -52,6 +53,7 @@ Not tested yet. Testing in progress.
 Single board that plugs into both CN1 and CN2 and supplies all 192K at once.
 
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL.jpg)  
+![](../../raw/main/PCB/TANDY_600_RAM_DUAL.b.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL.top.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL.bottom.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL.svg)  
@@ -70,6 +72,7 @@ This is the same as the DUAL version, just with the full connectors for polarity
 The pcb is larger to match the connectors, and a few traces are moved slightly to take advantage of the larger pcb for better ground paths and fewer vias needed.  
 
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL_full.jpg)  
+![](../../raw/main/PCB/TANDY_600_RAM_DUAL_full.b.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL_full.plugs.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL_full.top.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL_full.bottom.jpg)  

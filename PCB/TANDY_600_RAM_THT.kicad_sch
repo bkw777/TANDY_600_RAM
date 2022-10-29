@@ -1547,7 +1547,7 @@
     (uuid 00000000-0000-0000-0000-000061163f2f)
     (property "Reference" "J1" (id 0) (at 74.168 40.64 0))
     (property "Value" "DIN 41612 2x22 male right-angle" (id 1) (at 74.422 43.307 0))
-    (property "Footprint" "000_LOCAL:DIN 41612 2x22 male right-angle" (id 2) (at 71.12 76.2 0)
+    (property "Footprint" "000_LOCAL:DIN-41612_02x22_male_horizontal" (id 2) (at 71.12 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 71.12 76.2 0)
@@ -2299,7 +2299,7 @@
       (reference "C2") (unit 1) (value "0.1uF") (footprint "000_LOCAL:C_Disc_D5.0mm_W2.5mm_P2.50mm")
     )
     (path "/00000000-0000-0000-0000-000061163f2f"
-      (reference "J1") (unit 1) (value "DIN 41612 2x22 male right-angle") (footprint "000_LOCAL:DIN 41612 2x22 male right-angle")
+      (reference "J1") (unit 1) (value "DIN 41612 2x22 male right-angle") (footprint "000_LOCAL:DIN-41612_02x22_male_horizontal")
     )
     (path "/00000000-0000-0000-0000-0000613c8a04"
       (reference "U1") (unit 1) (value "628128") (footprint "000_LOCAL:DIP-32_W15.24mm")
