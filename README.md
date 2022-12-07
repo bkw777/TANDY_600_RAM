@@ -6,7 +6,7 @@ There are several versions to choose from.
 [Through-Hole single-bank 96K](#through-hole-version)  
 [Tiny single-bank 96K](#tiny-version)  
 [Tiny dual-bank 192K](#dual-version)  
-[Full dual-bank 192K](#dual_full-version)
+<!-- [Full dual-bank 192K](#dual_full-version) -->
 
 ## Standard Version  
 <!-- [PCB from OSHPark](https://oshpark.com/shared_projects/nBVWvJ2W)  -->
@@ -63,6 +63,8 @@ Single board that plugs into both CN1 and CN2 and supplies all 192K at once.
 <!-- [PCB from OSHPark]()  -->
 [PCB from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_192K_DUAL_RAM_96d16a20.html)  
 
+Important assembly note: To avoid putting strain on the motherboard connectors, don't solder the pin headers free-hand. Use a breadboard to hold the pin headers while soldering the pin headers to the pcb. This ensures the two pin headers are exactly 500 mils apart and exactly parallel with each other.
+
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL.top.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL.bottom.jpg)  
@@ -71,11 +73,14 @@ Single board that plugs into both CN1 and CN2 and supplies all 192K at once.
 ![](../../raw/main/TANDY_600_RAM_DUAL.display.jpg)  
 
 ----
-
+<!--
 ## DUAL_full Version
 
 This is the same as the DUAL version, just with the full connectors for polarity enforcement.  
 The pcb is larger to match the connectors, and a few traces are moved slightly to take advantage of the larger pcb for better ground paths and fewer vias needed.  
+
+Advantage: Full polarity protection.  
+Disadvantage: There is no convenient way to ensure the exact alignment of the connectors while soldering, since the connectors cannot be plugged into a breadboard. You could use through-hole non-polarized female pin headers inserted into a breadboard, and then the din connectors inserted into those.
 
 [TANDY_600_RAM_DUAL_full.BOM.csv](../../raw/main/TANDY_600_RAM_DUAL_full.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/ctmq5hdj))  
 
@@ -86,6 +91,7 @@ The pcb is larger to match the connectors, and a few traces are moved slightly t
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL_full.svg)  
 
 ----
+-->
 
 # History / Credits
 
