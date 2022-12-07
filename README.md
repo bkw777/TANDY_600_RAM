@@ -11,7 +11,7 @@ There are several versions to choose from.
 ## Standard Version  
 <!-- [PCB from OSHPark](https://oshpark.com/shared_projects/nBVWvJ2W)  -->
 [PCB from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_RAM.html)  
-[TANDY_600_RAM.BOM.csv](../../raw/main/TANDY_600_RAM.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/mjtb7rnn))  
+[TANDY_600_RAM.BOM.csv](../../raw/main/TANDY_600_RAM.BOM.csv) ([BOM from DigiKey](https://www.digikey.com/short/mjtb7rnn))  
 
 <!-- [Gerbers](../../releases/latest) -->
 
@@ -30,7 +30,7 @@ Electrically the same as the standard version, just with all through-hole compon
 There is room for the IC's to be socketed, and the BOM includes sockets.  
 
 [PCB for THT version from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_RAM_96K_THT_70a7bb4c.html)  
-[TANDY_600_RAM_THT.BOM.csv](../../raw/main/TANDY_600_RAM_THT.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/5q7bmv0q))  
+[TANDY_600_RAM_THT.BOM.csv](../../raw/main/TANDY_600_RAM_THT.BOM.csv) ([BOM from DigiKey](https://www.digikey.com/short/5q7bmv0q))  
 
 ![](../../raw/main/PCB/TANDY_600_RAM_THT.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_THT.top.jpg)  
@@ -45,7 +45,7 @@ There is room for the IC's to be socketed, and the BOM includes sockets.
 
 Not tested yet. Testing in progress.  
 
-[TANDY_600_RAM_tiny.BOM.csv](../../raw/main/TANDY_600_RAM_tiny.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/p907n2hq))  
+[TANDY_600_RAM_tiny.BOM.csv](../../raw/main/TANDY_600_RAM_tiny.BOM.csv) ([BOM from DigiKey](https://www.digikey.com/short/p907n2hq))  
 (Link to order PCB will be added after testing)
 
 ![](../../raw/main/PCB/TANDY_600_RAM_tiny.jpg)  
@@ -59,7 +59,7 @@ Not tested yet. Testing in progress.
 
 Single board that plugs into both CN1 and CN2 and supplies all 192K at once.  
 
-[TANDY_600_RAM_DUAL.BOM.csv](../../raw/main/TANDY_600_RAM_DUAL.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/4t5v4hp5))  
+[TANDY_600_RAM_DUAL.BOM.csv](../../raw/main/TANDY_600_RAM_DUAL.BOM.csv) ([BOM from DigiKey](https://www.digikey.com/short/4t5v4hp5))  
 <!-- [PCB from OSHPark]()  -->
 [PCB from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_192K_DUAL_RAM_96d16a20.html)  
 
@@ -82,7 +82,7 @@ The pcb is larger to match the connectors, and a few traces are moved slightly t
 Advantage: Full polarity protection.  
 Disadvantage: There is no convenient way to ensure the exact alignment of the connectors while soldering, since the connectors cannot be plugged into a breadboard. You could use through-hole non-polarized female pin headers inserted into a breadboard, and then the din connectors inserted into those.
 
-[TANDY_600_RAM_DUAL_full.BOM.csv](../../raw/main/TANDY_600_RAM_DUAL_full.BOM.csv) ([DigiKey cart](https://www.digikey.com/short/ctmq5hdj))  
+[TANDY_600_RAM_DUAL_full.BOM.csv](../../raw/main/TANDY_600_RAM_DUAL_full.BOM.csv) ([BOM from DigiKey](https://www.digikey.com/short/ctmq5hdj))  
 
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL_full.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL_full.b.jpg)  
