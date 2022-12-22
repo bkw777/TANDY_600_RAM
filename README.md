@@ -7,6 +7,11 @@ There are several versions to choose from. They all work the same. Just pick whi
 [Tiny single-bank 96K](#tiny-version) more difficult to solder, miniaturized mostly just as a stunt  
 [Tiny dual-bank 192K](#dual-version) most practical way to get all 192K if you can manage the soldering
 
+![](../../raw/main/TANDY_600_RAM.all.top.jpg)  
+![](../../raw/main/TANDY_600_RAM.all.bottom.jpg)  
+![](../../raw/main/TANDY_600_RAM.display.jpg)  
+
+
 ## Standard Version  
 <!-- [PCB from OSHPark](https://oshpark.com/shared_projects/nBVWvJ2W)  -->
 [PCB for STANDARD version from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_RAM.html)  
@@ -46,9 +51,9 @@ The ICs may be socketed or not as you wish. When installed in the 600 there is r
 [BOM for TINY version from DigiKey](https://www.digikey.com/short/p907n2hq)
 
 ![](../../raw/main/PCB/TANDY_600_RAM_tiny.jpg)  
-![](../../raw/main/PCB/TANDY_600_RAM_tiny.20mm.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_tiny.top.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_tiny.bottom.jpg)  
+![](../../raw/main/TANDY_600_RAM_tiny.install.jpg)  
 
 ----
 
@@ -65,7 +70,6 @@ Single board that plugs into both CN1 and CN2 and supplies all 192K at once.
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL.bottom.jpg)  
 ![](../../raw/main/PCB/TANDY_600_RAM_DUAL.svg)  
 ![](../../raw/main/TANDY_600_RAM_DUAL.install.jpg)  
-![](../../raw/main/TANDY_600_RAM_DUAL.display.jpg)  
 
 ----
 
