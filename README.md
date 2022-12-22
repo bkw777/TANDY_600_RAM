@@ -9,6 +9,7 @@ There are several versions to choose from. They all work the same. Just pick whi
 
 ![](../../raw/main/TANDY_600_RAM.all.top.jpg)  
 ![](../../raw/main/TANDY_600_RAM.all.bottom.jpg)  
+![](../../raw/main/TANDY_600_RAM_dual.1.jpg)  
 ![](../../raw/main/TANDY_600_RAM.display.jpg)  
 
 
