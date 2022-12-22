@@ -42,7 +42,7 @@ The ICs may be socketed or not as you wish. When installed in the 600 there is r
 
 ## Tiny Version
 
-[PCB for TINY version from PCBWAY]()  
+[PCB for TINY version from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_RAM_TINY_Version_dedc5289.html)  
 [BOM for TINY version from DigiKey](https://www.digikey.com/short/p907n2hq)
 
 ![](../../raw/main/PCB/TANDY_600_RAM_tiny.jpg)  
