@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.55,
-          "width": 1.55
+          "drill": 0.9,
+          "height": 1.5,
+          "width": 1.5
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -356,7 +356,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "TANDY_600_RAM_DUAL.kicad_pro",
+    "filename": "TANDY_600_RAM_AS6C2008A.kicad_pro",
     "version": 1
   },
   "net_settings": {
