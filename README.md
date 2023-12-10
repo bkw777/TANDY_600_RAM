@@ -20,10 +20,10 @@ There are several versions to choose from. They all work the same. Just pick whi
 
 <!-- [Gerbers](../../releases/latest) -->
 
-![](../../raw/main/PCB/TANDY_600_RAM.jpg)  
-![](../../raw/main/PCB/TANDY_600_RAM.top.jpg)  
-![](../../raw/main/PCB/TANDY_600_RAM.bottom.jpg)  
-![](../../raw/main/PCB/TANDY_600_RAM.svg)  
+![](../../raw/main/PCB/out/TANDY_600_RAM.jpg)  
+![](../../raw/main/PCB/out/TANDY_600_RAM.top.jpg)  
+![](../../raw/main/PCB/out/TANDY_600_RAM.bottom.jpg)  
+![](../../raw/main/PCB/out/TANDY_600_RAM.svg)  
 ![](../../raw/main/TANDY_600_RAM.1.jpg)  
 ![](../../raw/main/TANDY_600_RAM.2.jpg)
 
@@ -37,9 +37,9 @@ The ICs may be socketed or not as you wish. When installed in the 600 there is r
 [PCB for THROUGH-HOLE version from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_RAM_96K_THT_70a7bb4c.html)  
 [BOM for THROUGH-HOLE version from DigiKey](https://www.digikey.com/short/5q7bmv0q)
 
-![](../../raw/main/PCB/TANDY_600_RAM_THT.jpg)  
-![](../../raw/main/PCB/TANDY_600_RAM_THT.top.jpg)  
-![](../../raw/main/PCB/TANDY_600_RAM_THT.bottom.jpg)  
+![](../../raw/main/PCB/out/TANDY_600_RAM_THT.jpg)  
+![](../../raw/main/PCB/out/TANDY_600_RAM_THT.top.jpg)  
+![](../../raw/main/PCB/out/TANDY_600_RAM_THT.bottom.jpg)  
 ![](../../raw/main/TANDY_600_RAM_THT.1.jpg)  
 ![](../../raw/main/TANDY_600_RAM_THT.2.jpg)  
 ![](../../raw/main/TANDY_600_RAM_THT.3.jpg)  
@@ -51,9 +51,9 @@ The ICs may be socketed or not as you wish. When installed in the 600 there is r
 [PCB for TINY version from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_RAM_TINY_Version_dedc5289.html)  
 [BOM for TINY version from DigiKey](https://www.digikey.com/short/p907n2hq)
 
-![](../../raw/main/PCB/TANDY_600_RAM_tiny.jpg)  
-![](../../raw/main/PCB/TANDY_600_RAM_tiny.top.jpg)  
-![](../../raw/main/PCB/TANDY_600_RAM_tiny.bottom.jpg)  
+![](../../raw/main/PCB/out/TANDY_600_RAM_tiny.jpg)  
+![](../../raw/main/PCB/out/TANDY_600_RAM_tiny.top.jpg)  
+![](../../raw/main/PCB/out/TANDY_600_RAM_tiny.bottom.jpg)  
 ![](../../raw/main/TANDY_600_RAM_tiny.install.jpg)  
 
 ----
@@ -66,10 +66,10 @@ Single board that plugs into both CN1 and CN2 and supplies all 192K at once.
 [PCB for DUAL version from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_192K_DUAL_RAM_96d16a20.html)  
 [BOM for DUAL version from DigiKey](https://www.digikey.com/short/4t5v4hp5)
 
-![](../../raw/main/PCB/TANDY_600_RAM_DUAL.jpg)  
-![](../../raw/main/PCB/TANDY_600_RAM_DUAL.top.jpg)  
-![](../../raw/main/PCB/TANDY_600_RAM_DUAL.bottom.jpg)  
-![](../../raw/main/PCB/TANDY_600_RAM_DUAL.svg)  
+![](../../raw/main/PCB/out/TANDY_600_RAM_DUAL.jpg)  
+![](../../raw/main/PCB/out/TANDY_600_RAM_DUAL.top.jpg)  
+![](../../raw/main/PCB/out/TANDY_600_RAM_DUAL.bottom.jpg)  
+![](../../raw/main/PCB/out/TANDY_600_RAM_DUAL.svg)  
 ![](../../raw/main/TANDY_600_RAM_DUAL.install.jpg)  
 ![](../../raw/main/TANDY_600_RAM_192K_AS6C2008A.jpg)  
 
