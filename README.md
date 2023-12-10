@@ -64,7 +64,7 @@ Single board that plugs into both CN1 and CN2 and supplies all 192K at once.
 
 <!-- [PCB from OSHPark]()  -->
 [PCB for DUAL version from PCBWAY](https://www.pcbway.com/project/shareproject/TANDY_600_192K_DUAL_RAM_96d16a20.html)  
-[BOM for DUAL version from DigiKey](https://www.digikey.com/short/4t5v4hp5)
+[BOM for DUAL version from DigiKey](https://www.digikey.com/short/h8bpf4wj)
 
 ![](../../raw/main/PCB/out/TANDY_600_RAM_DUAL.jpg)  
 ![](../../raw/main/PCB/out/TANDY_600_RAM_DUAL.top.jpg)  
