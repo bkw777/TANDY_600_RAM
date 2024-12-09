@@ -506,7 +506,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "bb63c4a9-05bb-4e53-99b2-836982678e73")
 	)
-	(model "${KIPRJMOD}/000_LOCAL.pretty/3d/TSOP32_8x14.step"
+	(model "${KIPRJMOD}/000_LOCAL.pretty/3dshapes/TSOP32_8x14.step"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
@@ -518,7 +518,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/000_LOCAL.pretty/3d/TSOP32_8X20.step"
+	(model "${KIPRJMOD}/000_LOCAL.pretty/3dshapes/TSOP32_8X20.step"
 		(hide yes)
 		(offset
 			(xyz 3.25 0 0)
@@ -530,7 +530,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/000_LOCAL.pretty/3d/TSOP-I-32_11.8x8mm_P0.5mm.step"
+	(model "${KIPRJMOD}/000_LOCAL.pretty/3dshapes/TSOP-I-32_11.8x8mm_P0.5mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -541,7 +541,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/000_LOCAL.pretty/3d/TSOP-I-32_18.4x8mm_P0.5mm.step"
+	(model "${KIPRJMOD}/000_LOCAL.pretty/3dshapes/TSOP-I-32_18.4x8mm_P0.5mm.step"
 		(hide yes)
 		(offset
 			(xyz 3.25 0 0)

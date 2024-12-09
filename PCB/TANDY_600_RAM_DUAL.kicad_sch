@@ -5757,7 +5757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "000_LOCAL:SOIC-16_4x10"
+		(property "Footprint" "000_LOCAL:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 165.1 120.65 0)
 			(effects
 				(font

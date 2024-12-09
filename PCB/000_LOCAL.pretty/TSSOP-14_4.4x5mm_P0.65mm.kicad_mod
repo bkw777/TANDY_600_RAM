@@ -349,7 +349,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "cfac640d-b6cf-46c2-8ee3-3505787cc60d")
 	)
-	(model "${KIPRJMOD}/000_LOCAL.pretty/3d/TSSOP-14_4.4x5mm_P0.65mm.step"
+	(model "${KIPRJMOD}/000_LOCAL.pretty/3dshapes/TSSOP-14_4.4x5mm_P0.65mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
