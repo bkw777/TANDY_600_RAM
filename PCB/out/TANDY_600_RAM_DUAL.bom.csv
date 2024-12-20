@@ -1,0 +1,7 @@
+"Reference","Value","Datasheet","Footprint","Qty","DNP","MPN","Description"
+"C1,C2","1u","datasheets/CL21B105KAFNNNE.pdf","000_LOCAL:C_0805","2","","CL21B105KAFNNNE","CAP CER 1UF 25V X7R 0805"
+"CN1,CN2","TANDY_600_RAM_BUS_plain_pins","datasheets/PRPC022DAAN-RC.pdf","000_LOCAL:DIN-41612_02x22_male_vertical_bare_pins","2","","PRPC022DAAN-RC","CONN HEADER VERT 44POS 2.54MM"
+"R1","200k","datasheets/sei-rmcf_rmcp.pdf","000_LOCAL:R_0805","1","","RMCF0805FT200K","RES 200K OHM 1% 1/8W 0805"
+"U1","AS6C2008A","datasheets/AS6C4008.pdf","000_LOCAL:TSOP32-dual","1","","AS6C4008-55STIN","IC SRAM 4MBIT PARALLEL 32STSOP"
+"U2","HC148","datasheets/HC148.pdf","000_LOCAL:SOIC-16_3.9x9.9mm_P1.27mm","1","","SN74HC148DR","IC PRIORITY ENCOD 1 X 8:3 16SOIC"
+"U3","1G02","datasheets/1G02.pdf","000_LOCAL:SOT-353_SC-70-5","1","","SN74AHC1G02DCKR","IC GATE NOR 1CH 2-INP SC70-5"
