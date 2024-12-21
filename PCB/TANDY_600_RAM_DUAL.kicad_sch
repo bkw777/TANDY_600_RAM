@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "TANDY 600 RAM DUAL")
-		(date "2024-12-19")
-		(rev "014")
+		(date "2024-12-21")
+		(rev "015")
 		(company "Brian K. White - b.kenyon.w@gmail.com")
 		(comment 1 "CC-BY-SA")
 		(comment 2 "Originally based on Model600Sram_v1.1 by Jayeson Lee-Steer")
